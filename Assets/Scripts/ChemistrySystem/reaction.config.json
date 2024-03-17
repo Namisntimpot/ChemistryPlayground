@@ -1,0 +1,203 @@
+{
+    "reagents":{
+        "air":[
+            {
+                "state":"Gas",
+                "color":[],
+                "harm":false,
+                "provided":false
+            }
+        ],
+        "water":[
+            {
+                "state":"Liquidity",
+                "color":[],
+                "harm":false,
+                "provided":true
+            }
+        ],
+        "copper":[
+            {
+                "state":"Solidity",
+                "form":"wire",
+                "color":[191,173,111,255],
+                "harm":true,
+                "provided":true
+            },
+            {
+                "state":"Solidity",
+                "form":"powder",
+                "color":[191,173,111,255],
+                "harm":true,
+                "provided":true
+            }
+        ],
+        "nitric acid":[
+            {
+                "state":"Solution",
+                "color":[238,201,0,150],
+                "concentration":9,
+                "threshold":6,
+                "harm":true,
+                "provided":true
+            }
+        ],
+        "sodium hydroxide":[
+            {
+                "state":"Solution",
+                "color":[],
+                "concentration":4,
+                "threshold":0,
+                "harm":true,
+                "provided":true
+            }
+        ],
+        "nitrogen dioxide":[
+            {
+                "state":"Gas",
+                "color":[236,92,25,200],
+                "harm":true,
+                "provided":false
+            }
+        ],
+        "nitric oxide":[
+            {
+                "state":"Gas",
+                "color":[],
+                "harm":true,
+                "provided":false
+            }
+        ],
+        "copper nitrate":[
+            {
+                "state":"Solution",
+                "color":[0,191,255,150],
+                "concentration":0,
+                "threshold":0,
+                "harm":false,
+                "provided":false
+            }
+        ],
+        "monarkite":[
+            {
+                "state":"Solution",
+                "color":[],
+                "concentration":0,
+                "threshold":0,
+                "harm":false,
+                "provided":false
+            }
+        ]
+    },
+    "reactions":[
+        {
+            "reactants":[
+                {
+                    "name":"copper",
+                    "proportion":1
+                },
+                {
+                    "name":"nitric acid",
+                    "proportion":4
+                }
+            ],
+            "products":[
+                {
+                    "name":"copper nitrate",
+                    "proportion":1
+                },
+                {
+                    "name":"nitrogen dioxide",
+                    "proportion":2
+                },
+                {
+                    "name":"water",
+                    "proportion":2
+                }
+            ],
+            "conditions":{
+                "nitric acid":{
+                    "concentration":8
+                }
+            },
+            "speed":[0.0001,0.001]
+        },
+        {
+            "reactants":[
+                {
+                    "name":"copper",
+                    "proportion":3
+                },
+                {
+                    "name":"nitric acid",
+                    "proportion":8
+                }
+            ],
+            "products":[
+                {
+                    "name":"copper nitrate",
+                    "proportion":3
+                },
+                {
+                    "name":"nitric oxide",
+                    "proportion":2
+                },
+                {
+                    "name":"water",
+                    "proportion":4
+                }
+            ],
+            "conditions":{
+                "heat":600
+            },
+            "speed":[0.0001,0.001]
+        },
+        {
+            "reactants":[
+                {
+                    "name":"nitric acid",
+                    "proportion":1
+                },
+                {
+                    "name":"sodium hydroxide",
+                    "proportion":1
+                }
+            ],
+            "products":[
+                {
+                    "name":"monarkite",
+                    "proportion":1
+                },
+                {
+                    "name":"water",
+                    "proportion":1
+                }
+            ],
+            "speed":[0.01,0.1]
+        },
+        {
+            "reactants":[
+                {
+                    "name":"nitrogen dioxide",
+                    "proportion":1
+                },
+                {
+                    "name":"sodium hydroxide",
+                    "proportion":-1
+                }
+            ]
+        },
+        {
+            "reactants":[
+                {
+                    "name":"nitric oxide",
+                    "proportion":1
+                },
+                {
+                    "name":"sodium hydroxide",
+                    "proportion":-1
+                }
+            ]
+        }
+    ]
+}

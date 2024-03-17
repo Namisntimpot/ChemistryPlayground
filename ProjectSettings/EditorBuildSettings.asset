@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Classroom.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 0a862bcc7a0700449b587c2c632df9c4,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 895a5b7d69806fc4db699aff56c36168,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b4ea377b8ce06e74aa0021168b83f48f,
+      type: 2}

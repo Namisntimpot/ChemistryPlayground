@@ -1,0 +1,53 @@
+[
+    {
+        "name":"air",
+        "as_reactant": []
+    },
+    {
+        "name": "copper",
+        "as_reactant": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "nitric acid",
+        "as_reactant": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "name": "copper nitrate",
+        "as_reactant": []
+    },
+    {
+        "name": "nitrogen dioxide",
+        "as_reactant": [
+            3
+        ]
+    },
+    {
+        "name": "water",
+        "as_reactant": []
+    },
+    {
+        "name": "nitric oxide",
+        "as_reactant": [
+            4
+        ]
+    },
+    {
+        "name": "sodium hydroxide",
+        "as_reactant": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "monarkite",
+        "as_reactant": []
+    }
+]
